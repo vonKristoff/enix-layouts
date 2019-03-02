@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "^4.12.2",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon ./server"
+  }
+}

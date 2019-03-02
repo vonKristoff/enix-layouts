@@ -1,0 +1,31 @@
+/**
+ * Media Queries
+ */
+
+_mq-desktop-w = 1024px
+_mq-tablet-w = 768px
+_mq-mobile-w = 640px
+
+desktop()
+  @media (min-width: _mq-desktop-w)
+    {block}
+    
+tablet()
+  @media (min-width: _mq-mobile-w + 1px) and (max-width: _mq-desktop-w - 1px)
+    {block}
+    
+mobile()
+  @media (max-width: _mq-mobile-w) 
+    {block}
+    
+    
+/**
+ * custom media query
+ */
+min(minwidth)
+  @media (min-width: minwidth)
+    {block}
+    
+max(maxwidth)
+  @media (max-width: maxwidth)
+    {block}

@@ -1,0 +1,32 @@
+@import 'nib'
+global-reset()
+*, *:before, *:after
+  box-sizing border-box
+
+@import 'core/theme'
+@import 'core/media'
+@import 'core/html'
+
+@import 'components/content'
+@import 'components/lightbox'
+
+@import 'page-layouts'
+
+#root
+  overflow hidden
+  height 100vh
+
+.App
+  overflow scroll
+  height 100%
+  .content-collection, .navigation
+  	transition filter .3s
+  &.has-lightbox
+    overflow hidden
+    .content-collection, .navigation
+      filter blur(.125em)
+
+.navigation
+	padding 1em
+	color white
+	background-color #333
