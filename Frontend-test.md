@@ -1,4 +1,4 @@
-# SQUARE ENIX - FrontEnd Developer Test
+# FrontEnd Developer Test
 
 Given the following mockup:
 

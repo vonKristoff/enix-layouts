@@ -1,6 +1,3 @@
-# SQUARE ENIX - FrontEnd Developer Test
-
-**Candidate: JC Nicolas**
 
 _some brief notes_
 
