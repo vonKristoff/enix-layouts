@@ -1,5 +1,5 @@
 import React from 'react'
-const Component = () => (
+const Navigation = () => (
     <div className="navigation">
         <span>Logo</span>
     </div>

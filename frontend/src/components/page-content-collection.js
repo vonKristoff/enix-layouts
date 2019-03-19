@@ -4,7 +4,7 @@ import ContentTile from './content-tile'
 // wraps all the collection items
 // styles them using classes (see frontend/src/stylus/page-layouts.styl) based on the mediaQuery passed in as a prop
 
-const Component = ({ collection, setLightbox, viewport }) => (
+const ContentCollection = ({ collection, setLightbox, viewport }) => (
 	<div className={setOrientationClass(viewport.layout)}>
 		{layoutReducer(viewport)(collection).map(item => <ContentTile key={item.id} model={item} triggerLightbox={setLightbox}/>)}
 	</div>

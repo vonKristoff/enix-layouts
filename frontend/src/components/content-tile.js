@@ -1,5 +1,5 @@
 import React from 'react'
-const Component = ({ model, triggerLightbox }) => (
+const ContentTile = ({ model, triggerLightbox }) => (
     <div className={setLayoutClassName(model.row)} onClick={e => triggerLightbox(model)}>
     	<div className="tile-background" style={backgroundImageFromModel(model.artwork)}></div>
     	<div className="tile-meta">

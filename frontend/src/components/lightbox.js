@@ -1,5 +1,5 @@
 import React from 'react'
-const Component = ({ active, model, closeLightbox }) => (
+const Lightbox = ({ active, model, closeLightbox }) => (
     <div className={isActive(active)} onClick={e => closeLightbox()}>
         <div className="lightbox-viewport">
             <div className="view-body" style={backgroundImageFromModel(model.artwork)}></div>
